@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/clean-medical-background-with-frame_53876-97827.jpg?w=360&t=st=1703823908~exp=1703824508~hmac=72c975ed24179966f3b1affb37f2436949a5db798d71d26ab9204247508307c6");
+  background-color: #94b8b8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.pic {
+  width: 25%;
+  background-color: #f7fff7;
+  display: flex;
+  box-shadow: 10px 10px #94b8b8;
+  margin: 30px 60px 40px 300px;
+
+  border: 1px solid #94b8b8;
+
+}
+
+.txt {
+  color: #94b8b8;
+  width: 75%;
+  text-shadow: 2px 2px white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 100px 0;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #94b8b8;
+  text-shadow: 2px 2px white;
+}

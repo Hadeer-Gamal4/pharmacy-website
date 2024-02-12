@@ -1,0 +1,316 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', serif;
+  background-image: url("https://img.freepik.com/free-photo/medicine-capsules-global-health-with-geometric-pattern-digital-remix_53876-126742.jpg?size=626&ext=jpg&ga=GA1.1.323986640.1703681008&semt=ais");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* css navbar */
+.navbar {
+
+
+  background-color: #19a3a3;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  border-color: #66ffff;
+  padding: 10px 0;
+  display: flex;
+  height: 60px;
+
+}
+
+li {
+  text-decoration: none;
+
+}
+
+.navbar a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #0a0f0f;
+
+}
+
+.navbar a:hover {
+  /* background-color: #ddd; */
+
+  text-decoration: underline;
+  color: aqua;
+}
+
+.search {
+
+  text-align: center;
+  width: 30vw;
+  padding-top: 20px;
+
+}
+
+.search input {
+  border: 5px solid #0a0f0f;
+  font-size: 17px;
+  border-radius: 15px;
+  border-color: White;
+  width: 23vw;
+  height: 25px;
+  background-color: white;
+  color: black;
+}
+
+.search-button {
+
+  font-size: 17px;
+  border-radius: 15px;
+  height: 35px;
+  width: 30vm;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+
+}
+
+ul {
+  display: flex;
+  padding: 0%;
+
+}
+
+a {
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+
+
+.links {
+  width: 35vw;
+  text-align: center;
+  padding-left: 3vw;
+  /* padding-right: 3vw; */
+  margin-top: -.5vw;
+
+}
+
+.logs {
+  /* border: 2px solid red; */
+  width: 37vw;
+
+  display: flex;
+  text-align: right;
+  justify-content: end;
+  margin-top: 20px;
+  gap: 5px;
+
+}
+
+.btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+
+/* end nav css */
+
+/* start home */
+.intro {
+
+  color: white;
+  text-shadow: 2px 2px 4px #0a0f0f;
+  margin: 200px auto;
+  padding: 15px;
+  /* width: 850px; */
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+
+/* end home */
+
+/* start category */
+
+
+.grid {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  row-gap: 10px;
+
+  padding-left: 250px;
+
+}
+
+.gallery {
+
+  display: flex;
+  margin: 5px;
+  border: 1px solid #ccc;
+
+  width: 280px;
+  background-color: white;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery,
+desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* end category */
+
+
+/* start service */
+.servicebox {
+  border: 5px solid red;
+}
+
+.pp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #0a0f0f;
+
+  padding: 15px;
+  width: 400px;
+  margin-left: 40%;
+}
+
+.service {
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  row-gap: 10px;
+  border: 5px solid white;
+
+}
+
+.pic {
+  display: flex;
+
+  padding-left: 130px;
+  background-color: white;
+  box-shadow: 10px 10px #94b8b8;
+  /* margin: 25px 30px 20px 50px; */
+  width: 90%;
+  height: 300px;
+  /* float: left; */
+  border: 1px solid #94b8b8;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 5px 10px 10px;
+  /* margin-top:30px; */
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.pic.image {
+  width: 25%;
+}
+
+.pr {
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+
+}
+
+span {
+  font-size: 20px;
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* end service */
+
+/* start aboutus */
+.pic2 {
+  width: 25%;
+  background-color: #f7fff7;
+  display: flex;
+  box-shadow: 10px 10px #94b8b8;
+  margin: 30px 60px 40px 300px;
+  float: left;
+  position: fixed;
+  border: 1px solid #94b8b8;
+  border-radius: 30px;
+}
+
+.txt {
+  color: #94b8b8;
+  width: 75%;
+  text-shadow: 2px 2px white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 200px 60px 40px 350px;
+  text-align: center;
+}
+
+.h11 {
+  text-align: center;
+  color: #94b8b8;
+  text-shadow: 2px 2px white;
+}
+
+/* end aboutus */
